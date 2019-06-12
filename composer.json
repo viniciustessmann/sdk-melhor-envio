@@ -1,0 +1,21 @@
+{
+    "name": "tessmann/sdk-melhor-envio",
+    "description": "Sdk não oficial para cotação e compras e etiquetas pela API do Melhor Envio",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinícius Tessmann",
+            "email": "viniciusschleetessmann@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SdkMelhorEnvio\\": "src"
+        }
+    }
+}
